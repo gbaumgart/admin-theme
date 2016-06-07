@@ -3,4 +3,4 @@ BASEDIR=$(cd $(dirname $0) && pwd)/
 
 cd $BASEDIR/
 
-grunt --gruntfile GruntfileDark.js --target=html-transparent watch
+grunt --gruntfile Gruntfile.js --target=html-transparent watch
