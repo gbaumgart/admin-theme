@@ -848,7 +848,7 @@ samp {
 code {
   padding: 2px 4px;
   font-size: 90%;
-  color: #c7254e;
+  /*color: $code-color;*/
   background-color: #f9f2f4;
   border-radius: 3px;
 }
@@ -20119,8 +20119,8 @@ ol.text-list {
 
   /* line 25, ../../src/sass/_responsive.scss */
   body {
-    padding-left: 20px;
-    padding-right: 20px;
+    /*padding-left: 20px;
+    padding-right: 20px;*/
   }
 
   /* line 30, ../../src/sass/_responsive.scss */
