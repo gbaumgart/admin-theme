@@ -12468,7 +12468,7 @@ ul, ol {
 
 /* line 17, ../../src/sass/_override-bootstrap.scss */
 hr {
-  border-top: none;
+  /*border-top: none;*/
 }
 
 /* line 23, ../../src/sass/_override-bootstrap.scss */
