@@ -501,7 +501,7 @@ p {
   font-weight: 300;
   line-height: 1.4;
 }
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   /* line 62, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_type.scss */
   .lead {
     font-size: 19.5px;
@@ -742,7 +742,7 @@ dd {
 .dl-horizontal dd:after {
   clear: both;
 }
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   /* line 211, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_type.scss */
   .dl-horizontal dt {
     float: left;
@@ -916,13 +916,13 @@ pre code {
 .container:after {
   clear: both;
 }
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   /* line 10, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_grid.scss */
   .container {
     width: 750px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 592px) {
   /* line 10, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_grid.scss */
   .container {
     width: 970px;
@@ -1236,7 +1236,7 @@ pre code {
   margin-left: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   /* line 27, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
@@ -1497,7 +1497,7 @@ pre code {
     margin-left: 100%;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 592px) {
   /* line 27, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
@@ -2237,7 +2237,7 @@ table th[class*="col-"] {
   overflow-x: auto;
   min-height: 0.01%;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 499px) {
   /* line 171, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_tables.scss */
   .table-responsive {
     width: 100%;
@@ -2781,7 +2781,7 @@ select[multiple].input-lg,
   color: #959595;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   /* line 410, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
   .form-inline .form-group {
     display: inline-block;
@@ -2872,7 +2872,7 @@ select[multiple].input-lg,
 .form-horizontal .form-group:after {
   clear: both;
 }
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   /* line 515, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
   .form-horizontal .control-label {
     text-align: right;
@@ -2884,13 +2884,13 @@ select[multiple].input-lg,
 .form-horizontal .has-feedback .form-control-feedback {
   right: 15px;
 }
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   /* line 536, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
   .form-horizontal .form-group-lg .control-label {
     padding-top: 14.3px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   /* line 543, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
   .form-horizontal .form-group-sm .control-label {
     padding-top: 5px;
@@ -3380,7 +3380,7 @@ tbody.collapse.in {
   margin-bottom: 1px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   /* line 209, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_dropdowns.scss */
   .navbar-right .dropdown-menu {
     right: 0;
@@ -3909,7 +3909,7 @@ tbody.collapse.in {
   top: auto;
   left: auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   /* line 177, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
   .nav-justified > li, .nav-tabs.nav-justified > li {
     display: table-cell;
@@ -3938,7 +3938,7 @@ tbody.collapse.in {
 .nav-tabs.nav-justified > .active > a:focus {
   border: 1px solid #ddd;
 }
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   /* line 206, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navs.scss */
   .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
     border-bottom: 1px solid #ddd;
@@ -3988,7 +3988,7 @@ tbody.collapse.in {
 .navbar:after {
   clear: both;
 }
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   /* line 11, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar {
     border-radius: 3px;
@@ -4004,7 +4004,7 @@ tbody.collapse.in {
 .navbar-header:after {
   clear: both;
 }
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   /* line 31, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-header {
     float: left;
@@ -4033,7 +4033,7 @@ tbody.collapse.in {
 .navbar-collapse.in {
   overflow-y: auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   /* line 50, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-collapse {
     width: auto;
@@ -4080,7 +4080,7 @@ tbody.collapse.in {
   margin-right: -15px;
   margin-left: -15px;
 }
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   /* line 109, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
   .container > .navbar-header,
   .container > .navbar-collapse,
@@ -4096,7 +4096,7 @@ tbody.collapse.in {
   z-index: 1000;
   border-width: 0 0 1px;
 }
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   /* line 129, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-static-top {
     border-radius: 0;
@@ -4111,7 +4111,7 @@ tbody.collapse.in {
   left: 0;
   z-index: 1030;
 }
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   /* line 139, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-fixed-top,
   .navbar-fixed-bottom {
@@ -4148,7 +4148,7 @@ tbody.collapse.in {
 .navbar-brand > img {
   display: block;
 }
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   /* line 181, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
     margin-left: -15px;
@@ -4183,7 +4183,7 @@ tbody.collapse.in {
 .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 4px;
 }
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   /* line 194, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-toggle {
     display: none;
@@ -4200,7 +4200,7 @@ tbody.collapse.in {
   padding-bottom: 10px;
   line-height: 18px;
 }
-@media (max-width: 767px) {
+@media (max-width: 499px) {
   /* line 244, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-nav .open .dropdown-menu {
     position: static;
@@ -4225,7 +4225,7 @@ tbody.collapse.in {
     background-image: none;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   /* line 233, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-nav {
     float: left;
@@ -4254,7 +4254,7 @@ tbody.collapse.in {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   /* line 410, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss */
   .navbar-form .form-group {
     display: inline-block;
@@ -4315,7 +4315,7 @@ tbody.collapse.in {
     top: 0;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 499px) {
   /* line 299, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-form .form-group {
     margin-bottom: 5px;
@@ -4325,7 +4325,7 @@ tbody.collapse.in {
     margin-bottom: 0;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   /* line 287, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-form {
     width: auto;
@@ -4375,7 +4375,7 @@ tbody.collapse.in {
   margin-top: 16px;
   margin-bottom: 16px;
 }
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   /* line 359, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-text {
     float: left;
@@ -4384,7 +4384,7 @@ tbody.collapse.in {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   /* line 379, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-left {
     float: left !important;
@@ -4459,7 +4459,7 @@ tbody.collapse.in {
   background-color: #e7e7e7;
   color: #555;
 }
-@media (max-width: 767px) {
+@media (max-width: 499px) {
   /* line 473, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #777;
@@ -4560,7 +4560,7 @@ tbody.collapse.in {
   background-color: #090909;
   color: #fff;
 }
-@media (max-width: 767px) {
+@media (max-width: 499px) {
   /* line 607, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
     border-color: #090909;
@@ -6044,7 +6044,7 @@ button.close {
   overflow: scroll;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   /* line 134, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_modals.scss */
   .modal-dialog {
     width: 600px;
@@ -6062,7 +6062,7 @@ button.close {
     width: 300px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 592px) {
   /* line 147, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_modals.scss */
   .modal-lg {
     width: 900px;
@@ -6423,7 +6423,7 @@ button.close {
   display: none !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 499px) {
   /* line 7, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .visible-xs {
     display: block !important;
@@ -6445,28 +6445,28 @@ button.close {
     display: table-cell !important;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 499px) {
   /* line 49, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-xs-block {
     display: block !important;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 499px) {
   /* line 54, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-xs-inline {
     display: inline !important;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 499px) {
   /* line 59, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-xs-inline-block {
     display: inline-block !important;
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 500px) and (max-width: 591px) {
   /* line 7, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .visible-sm {
     display: block !important;
@@ -6488,28 +6488,28 @@ button.close {
     display: table-cell !important;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 500px) and (max-width: 591px) {
   /* line 68, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-sm-block {
     display: block !important;
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 500px) and (max-width: 591px) {
   /* line 73, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-sm-inline {
     display: inline !important;
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 500px) and (max-width: 591px) {
   /* line 78, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-sm-inline-block {
     display: inline-block !important;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 592px) and (max-width: 1199px) {
   /* line 7, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .visible-md {
     display: block !important;
@@ -6531,21 +6531,21 @@ button.close {
     display: table-cell !important;
   }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 592px) and (max-width: 1199px) {
   /* line 87, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-md-block {
     display: block !important;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 592px) and (max-width: 1199px) {
   /* line 92, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-md-inline {
     display: inline !important;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 592px) and (max-width: 1199px) {
   /* line 97, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-md-inline-block {
     display: inline-block !important;
@@ -6595,19 +6595,19 @@ button.close {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 499px) {
   /* line 18, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .hidden-xs {
     display: none !important;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 500px) and (max-width: 591px) {
   /* line 18, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .hidden-sm {
     display: none !important;
   }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 592px) and (max-width: 1199px) {
   /* line 18, ../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .hidden-md {
     display: none !important;
@@ -12659,7 +12659,7 @@ textarea + .help-block,
   margin-bottom: 18px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   /* line 146, ../../src/sass/_override-bootstrap.scss */
   .form-horizontal.form-label-left .control-label {
     text-align: left;
@@ -13190,7 +13190,7 @@ textarea + .help-block,
   padding-bottom: 10px;
   line-height: 18px;
 }
-@media (max-width: 767px) {
+@media (max-width: 499px) {
   /* line 610, ../../src/sass/_override-bootstrap.scss */
   .navbar-nav .open .dropdown-menu {
     position: absolute;
@@ -18854,7 +18854,7 @@ a.text-gray-lighter:hover {
 .sidebar-labels > li + li {
   margin-top: 9px;
 }
-@media (max-width: 767px) {
+@media (max-width: 499px) {
   /* line 208, ../../src/sass/_base.scss */
   .sidebar-labels {
     display: none;
@@ -18873,7 +18873,7 @@ a.text-gray-lighter:hover {
   opacity: 1;
   color: rgba(255, 255, 255, 0.9);
 }
-@media (max-width: 767px) {
+@media (max-width: 499px) {
   /* line 254, ../../src/sass/_base.scss */
   .sidebar-alerts {
     display: none;
@@ -18896,7 +18896,7 @@ a.text-gray-lighter:hover {
 .sidebar-nav-title .action-link .fa, .sidebar-nav-title .action-link .glyphicon {
   font-size: 9px;
 }
-@media (max-width: 767px) {
+@media (max-width: 499px) {
   /* line 272, ../../src/sass/_base.scss */
   .sidebar-nav-title {
     display: none;
@@ -20257,13 +20257,13 @@ ol.text-list {
     display: none !important;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   /* line 8, ../../src/sass/_responsive.scss */
   .sidebar-hidden .sidebar {
     display: none;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 499px) {
   /* line 15, ../../src/sass/_responsive.scss */
   .sidebar.nav-collapse,
   .sidebar.nav-collapse.collapse {
@@ -20800,7 +20800,7 @@ table.table thead .sorting_desc_disabled {
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
 }
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   /* line 194, ../../src/sass/_widgets.scss */
   .search-result-item .image-link {
     display: inline-block;
@@ -20809,7 +20809,7 @@ table.table thead .sorting_desc_disabled {
     width: 200px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 499px) {
   /* line 194, ../../src/sass/_widgets.scss */
   .search-result-item .image-link {
     max-height: 200px;
@@ -20834,7 +20834,7 @@ table.table thead .sorting_desc_disabled {
   margin-top: 20px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   /* line 229, ../../src/sass/_widgets.scss */
   .search-result-item-body {
     margin-left: 200px;
@@ -20849,7 +20849,7 @@ table.table thead .sorting_desc_disabled {
 .search-result-item-heading > a {
   color: #666;
 }
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   /* line 235, ../../src/sass/_widgets.scss */
   .search-result-item-heading {
     margin: 0;
@@ -20908,7 +20908,7 @@ table.table thead .sorting_desc_disabled {
   font-weight: 300;
   color: #ffffff;
 }
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   /* line 297, ../../src/sass/_widgets.scss */
   .error-code {
     font-size: 180px;
@@ -21340,7 +21340,7 @@ table.table thead .sorting_desc_disabled {
   width: 2%;
   text-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 500px) {
   /* line 714, ../../src/sass/_widgets.scss */
   .carousel-control-landing .icon-prev,
   .carousel-control-landing .icon-next {
