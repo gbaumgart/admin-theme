@@ -887,6 +887,7 @@
   Dropdown.prototype.keydown = function (e) {
     if (!/(38|40|27|32)/.test(e.which) || /input|textarea/i.test(e.target.tagName)) return
 
+    return;
     var $this = $(this)
 
     e.preventDefault()
@@ -896,6 +897,8 @@
 
     var $parent  = getParent($this)
     var isActive = $parent.hasClass('open')
+
+    console.log('bs key',[$parent,isActive]);
 
     if ((!isActive && e.which != 27) || (isActive && e.which == 27)) {
       if (e.which == 27) $parent.find(toggle).trigger('focus')
@@ -933,6 +936,8 @@
 
       $this.attr('aria-expanded', 'false')
       $parent.removeClass('open').trigger('hidden.bs.dropdown', relatedTarget)
+      console.log('clear menu',$parent);
+      $parent.focus();
     })
   }
 
