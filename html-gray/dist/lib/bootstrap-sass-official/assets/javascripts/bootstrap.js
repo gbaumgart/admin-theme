@@ -936,7 +936,7 @@
 
       $this.attr('aria-expanded', 'false')
       $parent.removeClass('open').trigger('hidden.bs.dropdown', relatedTarget)
-      console.log('clear menu',$parent);
+      //console.log('clear menu',$parent);
       $parent.focus();
     })
   }
