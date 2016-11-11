@@ -32,12 +32,19 @@ html{
   min-height: 100%;
 }
 
-body.xTheme-default{
+
+body{
   font-weight: $font-weight-base;
-  padding-bottom: 100px;
+  /*padding-bottom: 100px;*/
+  /*
   @include background-radial-gradient(ellipse, farthest-side, 10%, 0,
           $bg-gradient-color-1 20%, $bg-gradient-color-2
   );
+  */
+  background-color: #154265 20%;
+  background-image: radial-gradient(farthest-side ellipse at 10% 0, #154265 20%, #7392c2);
+  background-image: -webkit-radial-gradient(10% 0, farthest-side ellipse, #154265 20%, #7392c2);
+  background-image: -moz-radial-gradient(10% 0, farthest-side ellipse, #154265 20%, #7392c2);
   background-attachment: fixed, fixed;
 }
 

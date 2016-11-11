@@ -1,4 +1,4 @@
-<!-- light-blue - v3.1.0 - 2016-06-21 -->
+<!-- control-freak-admin-theme - v3.3.0 - 2016-11-08 -->
 
 <!DOCTYPE html>
 <html>
@@ -18,11 +18,10 @@
         */
     </script>
 </head>
-<body class="background-dark">
+<body>
     <div class="logo">
         <h4><a href="index.html">Light <strong>Blue</strong></a></h4>
     </div>
-
         <nav id="sidebar" class="sidebar nav-collapse collapse">
             <ul id="side-nav" class="side-nav">
                 <li class="">
@@ -92,13 +91,14 @@
                     <a class="accordion-toggle collapsed" data-toggle="collapse"
                        data-parent="#side-nav" href="#special-collapse"><i class="fa fa-leaf"></i> <span class="name">Special</span></a>
                     <ul id="special-collapse" class="panel-collapse collapse ">
-                        <li class=""><a href="special_search.html">Search <sup class="text-warning fw-bold">new</sup></a></li>
+                        <li class=""><a href="special_search.html">Search <sup class="text-danger fw-bold">new</sup></a></li>
                         <li class=""><a href="special_invoice.html">Invoice</a></li>
-                        <li class=""><a href="special_inbox.html">Inbox &nbsp; <span class="label label-important">3</span></a></li>
+                        <li class=""><a href="special_inbox.html">Inbox &nbsp; <span class="label label-warning text-gray-dark">3</span></a></li>
                         <li><a target="_blank" href="login.html">Login</a></li>
                         <li><a target="_blank" href="error.html">Error Page</a></li>
-                        <li><a href="landing.html" data-no-pjax>Landing</a></li>
-                        <li><a href="../white/index.html" data-no-pjax>White <sup class="text-warning fw-bold">new</sup></a></li>
+                        <li><a href="../dark/landing.html" data-no-pjax>Landing</a></li>
+                        <li><a href="../dark/index.html" data-no-pjax title="Light Blue Transparent Dark version">Dark <sup class="text-danger fw-bold">new</sup></a></li>
+                        <li><a href="../white/index.html" data-no-pjax title="Light Blue Transparent White version">White <sup class="text-danger fw-bold">new</sup></a></li>
                     </ul>
                 </li>
                 <li class="panel">
@@ -168,7 +168,7 @@
             <div class="sidebar-alerts">
                 <div class="alert fade in">
                     <a href="#" class="close" data-dismiss="alert" aria-hidden="true">&times;</a>
-                    <span class="text-white fw-semi-bold">Sales Report</span> <br>
+                    <span class="fw-semi-bold">Sales Report</span> <br>
                     <div class="progress progress-xs mt-xs mb-0">
                         <div class="progress-bar progress-bar-gray-light" style="width: 16%"></div>
                     </div>
@@ -176,16 +176,15 @@
                 </div>
                 <div class="alert fade in">
                     <a href="#" class="close" data-dismiss="alert" aria-hidden="true">&times;</a>
-                    <span class="text-white fw-semi-bold">Personal Responsibility</span> <br>
+                    <span class="fw-semi-bold">Personal Responsibility</span> <br>
                     <div class="progress progress-xs mt-xs mb-0">
                         <div class="progress-bar progress-bar-danger" style="width: 23%"></div>
                     </div>
                     <small>Provide required notes</small>
                 </div>
             </div>
-        </nav>
-    <div class="wrap">
-        <!--header class="page-header">
+        </nav>    <div class="wrap">
+        <header class="page-header">
             <div class="navbar">
                 <ul class="nav navbar-nav navbar-right pull-right">
                     <li class="visible-phone-landscape">
@@ -197,12 +196,12 @@
                         <a href="#" title="Messages" id="messages"
                            class="dropdown-toggle"
                            data-toggle="dropdown">
-                            <i class="fa fa-comments"></i>
+                            <i class="glyphicon glyphicon-comment"></i>
                         </a>
                         <ul id="messages-menu" class="dropdown-menu messages" role="menu">
                             <li role="presentation">
                                 <a href="#" class="message">
-                                    <img src="img/1.jpg" alt="">
+                                    <img src="img/1.png" alt="">
                                     <div class="details">
                                         <div class="sender">Jane Hew</div>
                                         <div class="text">
@@ -213,7 +212,7 @@
                             </li>
                             <li role="presentation">
                                 <a href="#" class="message">
-                                    <img src="img/2.jpg" alt="">
+                                    <img src="img/2.png" alt="">
                                     <div class="details">
                                         <div class="sender">Alies Rumiancaŭ</div>
                                         <div class="text">
@@ -224,7 +223,7 @@
                             </li>
                             <li role="presentation">
                                 <a href="#" class="message">
-                                    <img src="img/3.jpg" alt="">
+                                    <img src="img/3.png" alt="">
                                     <div class="details">
                                         <div class="sender">Michał Rumiancaŭ</div>
                                         <div class="text">
@@ -244,7 +243,7 @@
                         <a href="#" title="8 support tickets"
                            class="dropdown-toggle"
                            data-toggle="dropdown">
-                            <i class="fa fa-group"></i>
+                            <i class="glyphicon glyphicon-globe"></i>
                             <span class="count">8</span>
                         </a>
                         <ul id="support-menu" class="dropdown-menu support" role="menu">
@@ -311,18 +310,18 @@
                            title="Settings"
                            data-toggle="popover"
                            data-placement="bottom">
-                            <i class="fa fa-cog"></i>
+                            <i class="glyphicon glyphicon-cog"></i>
                         </a>
                     </li>
                     <li class="hidden-xs dropdown">
                         <a href="#" title="Account" id="account"
                            class="dropdown-toggle"
                            data-toggle="dropdown">
-                            <i class="fa fa-user"></i>
+                            <i class="glyphicon glyphicon-user"></i>
                         </a>
                         <ul id="account-menu" class="dropdown-menu account" role="menu">
                             <li role="presentation" class="account-picture">
-                                <img src="img/2.jpg" alt="">
+                                <img src="img/2.png" alt="">
                                 Philip Daineka
                             </li>
                             <li role="presentation">
@@ -354,7 +353,7 @@
                             <i class="fa fa-bars"></i>
                         </a>
                     </li>
-                    <li class="hidden-xs"><a href="login.html"><i class="fa fa-sign-out"></i></a></li>
+                    <li class="hidden-xs"><a href="login.html"><i class="glyphicon glyphicon-off"></i></a></li>
                 </ul>
                 <form id="search-form" class="navbar-form pull-right" role="search">
                     <input type="search" class="form-control search-query" placeholder="Search...">
@@ -366,24 +365,19 @@
                     </div>
                 </div>
             </div>
-        </header-->
-        <div class="content container">
+        </header>        <div class="content container">
         <h2 class="page-title">Tabs <small>Tabs-enabled widget and more</small></h2>
-
         <div class="row">
             <div class="col-md-6 col-md-offset-2">
                 <section class="widget widget-tabs">
                     <header>
                         <ul class="nav nav-tabs">
-
                             <li class="active">
                                 <a href="#stats" data-toggle="tab">Red</a>
                             </li>
-
                             <li>
                                 <a href="#report" data-toggle="tab">Orange</a>
                             </li>
-
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <i class="fa fa-caret-down"></i></a>
                                 <ul class="dropdown-menu">
@@ -393,10 +387,7 @@
                             </li>
                         </ul>
                     </header>
-
                     <div class="body tab-content">
-
-
                         <div id="stats" class="tab-pane active clearfix">
                             <h2>Tabs-enabled widget</h2>
                             <p>You will never know exactly how something will go until you try it.</p>
@@ -412,14 +403,11 @@
                                 <button class="btn btn-primary">Some button</button>
                             </div>
                         </div>
-
-
                         <div id="report" class="tab-pane">
                             <div style="font-size: 200px; text-align: center; color: #56bc76; height: 280px;">
                                 <i class="fa fa-picture-o"></i>
                             </div>
                         </div>
-
                         <div id="dropdown1" class="tab-pane">
                             <p>The same thing is for startups and ideas. If you have an idea right away after it appears
                                 in your mind you should go and make a first step to implement it. If you will think too
@@ -435,7 +423,6 @@
                                 <button class="btn btn-default">Cancel</button>
                             </div>
                         </div>
-
                         <div id="dropdown2" class="tab-pane">
                             <p>I realized really simple thing recently. Try is million times better than think. The real world is much more representative than any models either they are built in mind or on the shit of paper.</p>
                             <div>
@@ -446,19 +433,16 @@
                 </section>
             </div>
         </div>
-
         <div class="row">
             <div class="col-md-6">
                 <section class="widget">
-
                     <header>
                         <h5>
                             <i class="fa fa-arrow-down"></i>
                             Tabs inside of the body
                         </h5>
                     </header>
-                    <div class="body">insdi
-
+                    <div class="body">
                         <ul id="myTab" class="nav nav-tabs">
                             <li><a href="#home" data-toggle="tab">Home</a></li>
                             <li class="active"><a href="#profile" data-toggle="tab">Profile</a></li>
@@ -470,7 +454,6 @@
                                 </ul>
                             </li>
                         </ul>
-
                         <div id="myTabContent" class="tab-content" >
                             <div class="tab-pane fade" id="home">
                                 <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
@@ -488,8 +471,6 @@
                             </div>
                         </div>
                     </div>
-
-
                 </section>
             </div>
             <div class="col-md-6">
@@ -527,32 +508,23 @@
                 </section>
             </div>
         </div>
-
-        <div class="row" id="left-Tabs">
+        <div class="row">
             <div class="col-md-6">
-
-
                 <section class="widget">
-
                     <header>
                         <h5>
                             <i class="fa fa-arrow-right"></i>
                             Tabs on the left
                         </h5>
                     </header>
-
                     <div class="body">
-
                         <div class="tabbable tabs-left">
-
                             <ul id="myTabLeft" class="nav nav-tabs">
                                 <li><a href="#home-left" data-toggle="tab">Home</a></li>
                                 <li class="active"><a href="#profile-left" data-toggle="tab">Profile</a></li>
                                 <li><a href="#dropdown3-left" data-toggle="tab">Search</a></li>
                             </ul>
-
                             <div id="myTabContentLeft" class="tab-content" >
-
                                 <div class="tab-pane fade" id="home-left">
                                     <p>Light Blue - is a next generation admin template based on the latest Metro design. There are few reasons we want to tell you, why we have created it:
                                         We didn't like the darkness of most of admin templates, so we created this light one. We didn't like the high contrast of most of admin templates, so we created this unobtrusive one.
@@ -567,13 +539,10 @@
                                     <p>Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </section>
             </div>
-
-
             <div class="col-md-6">
                 <section class="widget">
                     <header>
@@ -617,7 +586,7 @@
 <!-- common libraries. required for every page-->
 <script src="lib/jquery/dist/jquery.min.js"></script>
 <script src="lib/jquery-pjax/jquery.pjax.js"></script>
-<script src="lib/bootstrap-sass-official/assets/javascripts/bootstrap.js"></script>
+<script src="lib/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
 <script src="lib/widgster/widgster.js"></script>
 <script src="lib/underscore/underscore.js"></script>
 
@@ -627,14 +596,6 @@
 
 <!-- common templates -->
 <script type="text/template" id="settings-template">
-    <div class="setting clearfix">
-        <div>Background</div>
-        <div id="background-toggle" class="pull-left btn-group" data-toggle="buttons-radio">
-            <% dark = background == 'dark'; light = background == 'light';%>
-            <button type="button" data-value="dark" class="btn btn-sm btn-default <%= dark? 'active' : '' %>">Dark</button>
-            <button type="button" data-value="light" class="btn btn-sm btn-default <%= light? 'active' : '' %>">Light</button>
-        </div>
-    </div>
     <div class="setting clearfix">
         <div>Sidebar on the</div>
         <div id="sidebar-toggle" class="pull-left btn-group" data-toggle="buttons-radio">
@@ -649,6 +610,12 @@
             <% display = displaySidebar%>
             <button type="button" data-value="true" class="btn btn-sm btn-default <%= display? 'active' : '' %>">Show</button>
             <button type="button" data-value="false" class="btn btn-sm btn-default <%= display? '' : 'active' %>">Hide</button>
+        </div>
+    </div>
+    <div class="setting clearfix">
+        <div>Dark Version</div>
+        <div>
+            <a href="../dark/index.html" class="btn btn-sm btn-default">&nbsp; Switch &nbsp;   <i class="fa fa-angle-right"></i></a>
         </div>
     </div>
     <div class="setting clearfix">

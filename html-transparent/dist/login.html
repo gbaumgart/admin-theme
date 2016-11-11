@@ -1,4 +1,4 @@
-<!-- light-blue - v3.1.0 - 2016-06-21 -->
+<!-- control-freak-admin-theme - v3.3.0 - 2016-11-08 -->
 
 <!DOCTYPE html>
 <html>
@@ -18,7 +18,7 @@
         */
     </script>
 </head>
-<body class="background-dark">
+<body>
         <div class="single-widget-container">
             <section class="widget login-widget">
                 <header class="text-align-center">
@@ -69,7 +69,7 @@
 <!-- common libraries. required for every page-->
 <script src="lib/jquery/dist/jquery.min.js"></script>
 <script src="lib/jquery-pjax/jquery.pjax.js"></script>
-<script src="lib/bootstrap-sass-official/assets/javascripts/bootstrap.js"></script>
+<script src="lib/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
 <script src="lib/widgster/widgster.js"></script>
 <script src="lib/underscore/underscore.js"></script>
 
@@ -79,14 +79,6 @@
 
 <!-- common templates -->
 <script type="text/template" id="settings-template">
-    <div class="setting clearfix">
-        <div>Background</div>
-        <div id="background-toggle" class="pull-left btn-group" data-toggle="buttons-radio">
-            <% dark = background == 'dark'; light = background == 'light';%>
-            <button type="button" data-value="dark" class="btn btn-sm btn-default <%= dark? 'active' : '' %>">Dark</button>
-            <button type="button" data-value="light" class="btn btn-sm btn-default <%= light? 'active' : '' %>">Light</button>
-        </div>
-    </div>
     <div class="setting clearfix">
         <div>Sidebar on the</div>
         <div id="sidebar-toggle" class="pull-left btn-group" data-toggle="buttons-radio">
@@ -101,6 +93,12 @@
             <% display = displaySidebar%>
             <button type="button" data-value="true" class="btn btn-sm btn-default <%= display? 'active' : '' %>">Show</button>
             <button type="button" data-value="false" class="btn btn-sm btn-default <%= display? '' : 'active' %>">Hide</button>
+        </div>
+    </div>
+    <div class="setting clearfix">
+        <div>Dark Version</div>
+        <div>
+            <a href="../dark/index.html" class="btn btn-sm btn-default">&nbsp; Switch &nbsp;   <i class="fa fa-angle-right"></i></a>
         </div>
     </div>
     <div class="setting clearfix">

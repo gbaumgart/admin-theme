@@ -42,8 +42,8 @@ $brand-warning:         $orange !default;
 $brand-danger:          $red !default;
 $brand-info:            $teal !default;
 
-$bg-gradient-color-1:   #154265;
-$bg-gradient-color-2:   #7392c2;
+$bg-gradient-color-1: #7fc4f0;
+$bg-gradient-color-2: #c1dde6;
 
 // Typography
 // -------------------------
@@ -64,7 +64,7 @@ $font-weight-bold: 700 !default;
 $font-weight-semi-bold: 600 !default;
 $font-weight-normal: 400 !default;
 $font-weight-thin: 300 !default;
-$font-weight-base: $font-weight-thin !default;
+$font-weight-base: $font-weight-normal !default;
 
 $line-height-base:        1.428571429 !default; // 20/14
 $line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px
@@ -72,7 +72,7 @@ $line-height-computed:    floor(($font-size-base * $line-height-base)) !default;
 // Links
 // -------------------------
 
-$link-color:            saturate(lighten($blue, 25%), 50%);
+$link-color:              #4B88D4;
 
 // Layout
 // -------------------------
@@ -92,7 +92,7 @@ $widget-mb:        0px;
 $widget-color:     $text-color;
 $widget-header-color: lighten($widget-color, 5%);
 $widget-header-smalls-color: $text-muted;
-$widget-controls-color: rgba($white, .45);
+$widget-controls-color: rgba($widget-color, .6);
 $widget-controls-hover-color: rgba($white, .6);
 
 $text-transparent: rgba($widget-bg-common, .5);
@@ -103,7 +103,6 @@ $widget-padding-vertical: 0px;
 $widget-padding-horizontal: 0px;
 $widget-padding: $widget-padding-vertical $widget-padding-horizontal;
 
-//$widget-padding: $widget-padding-vertical $widget-padding-horizontal;
 
 
 $sidebar-color:          $white;
@@ -323,7 +322,7 @@ $well-border:     transparent !default;
 // --------------------------------------------------
 
 $pre-bg: $bg-addition !default;
-$pre-color:                   $text-color !default;
+$pre-color:                   $widget-color !default;
 $pre-border-color: $widget-bg !default;
 
 // Type
@@ -337,4 +336,4 @@ $blockquote-border-color:             $widget-bg;
 // Awesome Checkbox
 // ------------------------
 
-$awesome-checkbox-default-color:       #eee;
+$awesome-checkbox-default-color:       #555;
