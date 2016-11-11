@@ -1,33 +1,30 @@
 //some basic definitions
 //html-elements only. no classes
 
-@mixin background-radial-gradient($figure, $type, $position_x, $position_y, $color_1, $color_2, $color_3){
+@mixin background-radial-gradient($figure, $type, $position_x, $position_y, $color_1, $color_2){
   //there is a built-in compass radial-gradient function, but it does not provide enough compatibility, so need to imitate it
   //it also has an option $experimental-support-for-svg which should generate correct svg for IE, but it works incorrect, so
   //fixing it
   //issue id - https://github.com/chriseppstein/compass/issues/1225
   background-color: $color_1;
-//final w3c
+  //final w3c
   background-image: radial-gradient(
-      $type $figure at $position_x $position_y,
-      $color_1,
-      $color_2,
-      $color_3
+                  $type $figure at $position_x $position_y,
+                  $color_1,
+                  $color_2
   );
   //webkit-specific
   background-image: -webkit-radial-gradient(
-      $position_x $position_y, $type $figure,
-      $color_1,
-      $color_2,
-      $color_3
+                  $position_x $position_y, $type $figure,
+                  $color_1,
+                  $color_2
   );
 
   //moz-specific
   background-image: -moz-radial-gradient(
-      $position_x $position_y, $type $figure,
-      $color_1,
-      $color_2,
-      $color_3
+                  $position_x $position_y, $type $figure,
+                  $color_1,
+                  $color_2
   );
 }
 
@@ -58,7 +55,7 @@ body.xTheme-default{
   */
 }
 
-#{headings()} {
+h1,h2,h3,h4,h5,h6{
   font-weight: $font-weight-base;
 
   small{

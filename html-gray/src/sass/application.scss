@@ -1,33 +1,22 @@
-//@import "font";
-
-
-
-
+@import "font";
 
 @import "variables";
 @import "mixins";
 
-@import "compass";
-
 
 // essential libs
 //
-@import "../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap";
+@import "../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 @import "../../../bower_components/font-awesome/scss/font-awesome";
-@import "../../../bower_components/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox";
+@import "../../../bower_components/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.scss";
 @import "CSS:../../../bower_components/animate.css/animate";
 
 @import "override-libs";
 @import "override-bootstrap";
 
-
-
-
 //
-
-
-
 // END essential libs
+
 
 
 // custom libs. can be removed
