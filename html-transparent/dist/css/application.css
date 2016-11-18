@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url("//fonts.googleapis.com/css?family=Raleway:400");
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
@@ -15419,7 +15418,6 @@ ul.messenger-theme-air {
   -webkit-user-select: none;
   -o-user-select: none;
   user-select: none;
-  font-family: "Raleway", sans-serif;
 }
 
 /* line 20, ../../src/sass/messenger-theme-air.sass */
