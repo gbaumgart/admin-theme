@@ -45,6 +45,7 @@ module.exports = function(grunt) {
         // compile sass to css
         sass: {
             options: {
+                lineNumbers:true,
                 importer:  function(url, prev, done) {
                     var urlPrefix = "projects/flaming-octo-nemesis";
                     //var urlPrefix = "projects/flaming-octo-nemesis";
@@ -62,7 +63,7 @@ module.exports = function(grunt) {
                         };
                     }
                 },
-                sourcemap: 'none'
+                sourcemap: 'inline'
             },
             dist: {
                 options: {
