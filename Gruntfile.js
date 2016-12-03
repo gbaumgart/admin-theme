@@ -4,6 +4,9 @@ module.exports = function(grunt) {
     var fs = require('fs');
     var path = require('path');
     // Project configuration.
+
+    var target = grunt.option('target') || 'html-transparent';
+    console.error('target : ',target);
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         config: {
@@ -11,7 +14,6 @@ module.exports = function(grunt) {
             srcFolder: '<%= config.target %>/src',
             distFolder: '<%= config.target %>/dist'
         },
-
 
         // compiles handlebars template to html
         'handlebarslayouts': {
@@ -67,6 +69,8 @@ module.exports = function(grunt) {
             },
             dist: {
                 options: {
+                    sourcemap: 'inline',
+                    lineNumbers:true,
                     outputStyle: 'expanded',
                     precision: 10
                 },
