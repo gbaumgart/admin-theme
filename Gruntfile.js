@@ -183,8 +183,7 @@ module.exports = function(grunt) {
                 }]
             }
         },
-
-        watch: {
+        _old:{
             templates: {
                 files: ['<%= config.srcFolder %>/*.hbs', '<%= config.srcFolder %>/partials/*.hbs'],
                 tasks: ['handlebarslayouts']
@@ -192,10 +191,6 @@ module.exports = function(grunt) {
             syncSass: {
                 files: ['<%= config.srcFolder %>/sass/**.scss', '<%= config.srcFolder %>/sass/**.sass'],
                 tasks: ['copy:syncTransparentDarkStyles', 'copy:syncWhiteStyles']
-            },
-            sass: {
-                files: ['<%= config.srcFolder %>/sass/**.scss', '<%= config.srcFolder %>/sass/**.sass'],
-                tasks: ['dist-sass']
             },
             scripts: {
                 files: ['<%= config.srcFolder %>/js/**.js', '<%= config.srcFolder %>/js/**.json'],
@@ -213,6 +208,13 @@ module.exports = function(grunt) {
                 files: ['bower_components/**'],
                 tasks: ['dist-libs']
             }
+        },
+        watch: {
+            sass: {
+                files: ['<%= config.srcFolder %>/sass/**.scss', '<%= config.srcFolder %>/sass/**.sass'],
+                tasks: ['dist-sass']
+            }
+
         }
     });
 
