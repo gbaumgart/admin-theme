@@ -42,9 +42,6 @@
 }
 
 /*$fa-font-path: "./fonts/font-awesome";*/
-/*
-$font-family-icon:"Font-Awesome";
-$fa-var-check: "\f00c";*/
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
@@ -16985,19 +16982,21 @@ html {
 
 body.xTheme-default {
   font-weight: 400;
-  /*padding-bottom: 100px;*/
-  background-color: rgba(74, 121, 147, 0.89);
-  background-image: radial-gradient(farthest-side ellipse at 10% 0, rgba(74, 121, 147, 0.89), rgba(204, 204, 204, 0.85) 80%, rgba(185, 135, 131, 0.87) 120%);
-  background-image: -webkit-radial-gradient(10% 0, farthest-side ellipse, rgba(74, 121, 147, 0.89), rgba(204, 204, 204, 0.85) 80%, rgba(185, 135, 131, 0.87) 120%);
-  background-image: -moz-radial-gradient(10% 0, farthest-side ellipse, rgba(74, 121, 147, 0.89), rgba(204, 204, 204, 0.85) 80%, rgba(185, 135, 131, 0.87) 120%);
+  /*
+  @include background-radial-gradient(ellipse, farthest-side, 10%, 0,
+    rgba(74, 121, 147, 0.89),
+    rgba(204, 204, 204, 0.85) 80%,
+    rgba(185, 135, 131, 0.87) 120%
+  );
+  &.background-dark{
+    @include background-radial-gradient(ellipse, farthest-side, 10%, 0,
+      rgba(102, 105, 104, 0.90),
+      rgba(93, 112, 119, 0.89),
+      rgba(160, 174, 150, 0.90)
+    );
+  }
   background-attachment: fixed, fixed;
-}
-
-body.xTheme-default.background-dark {
-  background-color: rgba(102, 105, 104, 0.9);
-  background-image: radial-gradient(farthest-side ellipse at 10% 0, rgba(102, 105, 104, 0.9), rgba(93, 112, 119, 0.89), rgba(160, 174, 150, 0.9));
-  background-image: -webkit-radial-gradient(10% 0, farthest-side ellipse, rgba(102, 105, 104, 0.9), rgba(93, 112, 119, 0.89), rgba(160, 174, 150, 0.9));
-  background-image: -moz-radial-gradient(10% 0, farthest-side ellipse, rgba(102, 105, 104, 0.9), rgba(93, 112, 119, 0.89), rgba(160, 174, 150, 0.9));
+  */
 }
 
 h1, h2, h3, h4, h5, h6 {
