@@ -13,6 +13,6 @@
     "grunt-sass": "^1.2.1"
   },
   "scripts": {
-    "postinstall": "bower install"
+
   }
 }
